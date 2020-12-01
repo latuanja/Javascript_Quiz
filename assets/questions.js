@@ -5,34 +5,34 @@ var jsQuestions = [
 	answer: "JavaScript"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "What does API stand for?",
+	choices: ["Application Programming Interfaces", "Angles Poorly Intertwined", "Art Panel Inline"],
+	answer: "Application Programming Interfaces"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "What kind of programming language is JavaScript?",
+	choices: ["Flexible", "Absolute", "Dynamic"],
+	answer: "Dynamic"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "What are variables",
+	choices: ["Containers that store values", "Where you change the font", "Where you add pictures"],
+	answer: "Containers that store values"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "Which symbol do you enter to end a statment?",
+	choices: [":", "#", ";"],
+	answer: ";"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "What does the alert()function do?",
+	choices: ["Make the website reload", "Make a pop-up box appear inside the browser window", "Make an outside application load"],
+	answer: "Make a pop-up box appear inside the browser window"
 },
 {
-	title: "",
-	choices: [],
-	answer: ""
+	title: "Where do you link your JS file?",
+	choices: ["In the CSS document", "In the HTML document", "In the Assets folder"],
+	answer: "In the HTML document"
 },
 
 ]
