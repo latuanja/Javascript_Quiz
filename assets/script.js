@@ -341,7 +341,7 @@ function endOfGame() {
   initialsInput.addEventListener("input", function() {
     initialsInput.value = initialsInput.value.toUpperCase();
     if ( initialsInput.value.length === 3 ) { 
-
+//Add button, adding function to save initials (ID on button), 2 variables: 1 var for user initials, to save inside of an event 
       //create object for this score
       let thisScore = [ { type: quizType, name: initialsInput.value, score: score } ]; 
 
@@ -357,7 +357,14 @@ function endOfGame() {
 
       localStorage.setItem("highScores", JSON.stringify(storedScores));
       highScores();
+      
+      var testObject = { userInitials: userInitials}
+
+      //place variables for storage of initials
+        localStorage.setItem("testObject", JSON.stringify(testObject));
+      console.log()
     }
+    
   });
 }
 
