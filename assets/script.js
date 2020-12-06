@@ -147,8 +147,6 @@ function presentQuestion() {
     return;
   }
 
-  // call question timer here
-  // reduceQUiz global
 
   //sets current object (cur - question) by pulling out of reducedQuiz array leaving the remaining quetions in the array
   curQuestion = quiz.pop();
@@ -157,7 +155,6 @@ function presentQuestion() {
   clearDetails();
    
   // add question to screen
-  //build out display for new item
   let question = document.createElement("h1");
   // adds data value
   question.setAttribute("question", curQuestion.title);
@@ -215,7 +212,6 @@ function scoreAnswer(cur) {
   }
 }
 
-// TODO incomplete does not disply the correct color!!!! arghh
 function showAnswers(cur) {
   if (test) { console.log("--- showAnswer ---"); }
   // if (test) { console.log("sa length",cur.choices.length);}

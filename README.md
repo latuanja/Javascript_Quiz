@@ -19,3 +19,6 @@ This website was created with HTML,CSS, JavaScript, & JQuery.
 
 ##Summary 
 This Javascript quiz allows users to test their knowledge and allows them to try to beat any scores that have been logged.
+
+Github Link: https://github.com/latuanja/Javascript_Quiz
+Deployed Link: https://latuanja.github.io/Javascript_Quiz/
